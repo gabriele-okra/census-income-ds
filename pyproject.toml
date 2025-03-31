@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "census-income-ds"
+version = "0.1.0"
+description = "Will get to this one later"
+authors = ["Gabriele Coli <gabrielemaria.coli@gmail.com>"]
+readme = "README.md"
+
+packages = [
+    {include = "census-income-ds", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+scipy = "^1.15.2"
+shap = "^0.47.1"
+xgboost = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
