@@ -7,13 +7,16 @@ curl -sSL https://install.python-poetry.org | python - --version 1.8.4
 ```
 
 
-## Setup (first-time)
+## Setup
 
-Set up the virtual environment:
+If it's the first time, setup the virtual environment by running:
 ```
 poetry install
 ```
-
+otherwise, just type
+```
+poetry shell
+```
 
 ## How to run
 ```
